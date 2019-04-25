@@ -47740,7 +47740,7 @@ cr.plugins_.sirg_kiz = function(runtime)
 
 				{
 
-					console.log("[Kiz10API] api object not accessible");
+					console.log("[Kiz10API] api object not accessible" + err);
 
 				}
 
