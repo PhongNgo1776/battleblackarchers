@@ -47625,7 +47625,7 @@ function loadScript(src, callback)
 
 }
 
-loadScript('_apiKiz10.js?000000000001',function (){ console.log("LOADED API JS EXTERNAL SCRIPT"); });
+loadScript('apiKiz10.js?000000000001',function (){ console.log("LOADED API JS EXTERNAL SCRIPT"); });
 console.log("Version Apikiz10 v01 2018");
 
 cr.plugins_.sirg_kiz = function(runtime)
