@@ -47806,7 +47806,7 @@ cr.plugins_.sirg_kiz = function(runtime)
 
 			{
 
-				if(__Kiz10API._ObjectApi)
+				if(__Kiz10API && __Kiz10API._ObjectApi)
 
 				{
 
