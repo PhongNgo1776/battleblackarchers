@@ -47718,7 +47718,9 @@ cr.plugins_.sirg_kiz = function(runtime)
 
 				{
 
+					if(__FLAGAPI==0)
 
+					{
 
 					__Kiz10API = new _KIZ10API();
 
@@ -47726,13 +47728,19 @@ cr.plugins_.sirg_kiz = function(runtime)
 
 					__FLAGAPI = 1;
 
+					}else
 
+					{
+
+						console.log("API OBJECT EXISTS (no need to create again)");
+
+					}
 
 				} catch(err)
 
 				{
 
-					console.log("[Kiz10API] api object not accessible" + err);
+					console.log("[Kiz10API] api object not accessible");
 
 				}
 
@@ -47742,7 +47750,7 @@ cr.plugins_.sirg_kiz = function(runtime)
 
 			{
 
-				if(__Kiz10API && __Kiz10API._ObjectApi)
+				if(__Kiz10API._ObjectApi)
 
 				{
 
@@ -47752,6 +47760,9 @@ cr.plugins_.sirg_kiz = function(runtime)
 
 				{
 
+					if(__FLAGAPI==0)
+
+					{
 
 					__Kiz10API = new _KIZ10API();
 
@@ -47761,7 +47772,13 @@ cr.plugins_.sirg_kiz = function(runtime)
 
 					console.log("API OBJECT CREATED NEWTIME");
 
-					
+					}else
+
+					{
+
+						console.log("API OBJECT EXISTS (no need to create again)");
+
+					}
 
 				}
 
@@ -47789,7 +47806,7 @@ cr.plugins_.sirg_kiz = function(runtime)
 
 			{
 
-				if(__Kiz10API && __Kiz10API._ObjectApi)
+				if(__Kiz10API._ObjectApi)
 
 				{
 
@@ -47799,6 +47816,9 @@ cr.plugins_.sirg_kiz = function(runtime)
 
 				{
 
+					if(__FLAGAPI==0)
+
+					{
 
 					__Kiz10API = new _KIZ10API();
 
@@ -47808,7 +47828,13 @@ cr.plugins_.sirg_kiz = function(runtime)
 
 					console.log("API OBJECT CREATED NEWTIME");
 
-					
+					}else
+
+					{
+
+						console.log("API OBJECT EXISTS (no need to create again)");
+
+					}
 
 				}
 
