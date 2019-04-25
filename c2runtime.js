@@ -47718,9 +47718,7 @@ cr.plugins_.sirg_kiz = function(runtime)
 
 				{
 
-					if(__FLAGAPI==0)
 
-					{
 
 					__Kiz10API = new _KIZ10API();
 
@@ -47728,13 +47726,7 @@ cr.plugins_.sirg_kiz = function(runtime)
 
 					__FLAGAPI = 1;
 
-					}else
 
-					{
-
-						console.log("API OBJECT EXISTS (no need to create again)");
-
-					}
 
 				} catch(err)
 
